@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var name = prompt("What's your name?", "Please enter your name here");
+        if( name == null ){
+          alert("Please try again.");
+      } else {
+          alert("Hello " + name + ", pleased to meet you!");
+      }
+      var name = prompt("What's your name again?", "Please enter your name here");
+      var age = prompt("How old are you?", "Please enter your name here");
+        if( age < 18 ){
+          alert("Hello " + name + ", you're a minor.");
+      } else {
+          alert("Hello " + name + ", you're a big boy! Now go get an iPhone");
+      }
+    </script>
+  </body> 
+</html>
